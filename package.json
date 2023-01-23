@@ -1,9 +1,10 @@
 {
   "name": "magic-nextjs",
   "scripts": {
-    "dev": "next",
+    "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "@magic-ext/oauth": "^0.7.0",
